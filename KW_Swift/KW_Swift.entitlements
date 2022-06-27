@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:f3efa2e4c69f1da39b1cf9d7f49e7e5b.share2dlink.com</string>
+	</array>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array/>
+	<key>com.apple.developer.networking.wifi-info</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.kw.swift</string>
+	</array>
+</dict>
+</plist>

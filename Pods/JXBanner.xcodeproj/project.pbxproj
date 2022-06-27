@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0071168C838486E99A43A8203B6EB8EC /* IndexPath+JXCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F18D3E1DD47535059FD10DC37D72041 /* IndexPath+JXCalculate.swift */; };
+		0DCC72B0EFC606A6532E05D9DE20C080 /* JXBannerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51EFC3C833C63C956549D1AC34FE6AF /* JXBannerLayout.swift */; };
+		120F5FC78A511D4AF5802734E8F3B0A9 /* JXBannerTransformLinear.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5FAE96C0A9C39855FF5CB7B4DF85E6 /* JXBannerTransformLinear.swift */; };
+		1290FEECC5B460874FF4E7954F9DC6EA /* JXBannerPageControlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD394DCE608E80D6D6C6D9830D6295D /* JXBannerPageControlBuilder.swift */; };
+		295DDB348C6A852F93B4AAE6EAE9A590 /* JXBannerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABB31BDB6C94B01A001619DFD6BB2D1 /* JXBannerType.swift */; };
+		2D1D3A969CD2E3C4E2DE54640C64DB21 /* JXBannerTransformContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417553D7BD8A02106E3504ED2269B64A /* JXBannerTransformContext.swift */; };
+		3ABF58B528B6D8242063C8B3B6175129 /* JXBannerTransformCoverflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EDE6A766477A1896F07976F346D94C /* JXBannerTransformCoverflow.swift */; };
+		6230E5C69FBF5677EC8BBF7D56FAFB0B /* JXBannerTransfrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CCAE7A7AD5E016A2D1B92229E6B8F7 /* JXBannerTransfrom.swift */; };
+		67A20580019062912226B6D0CBFB5678 /* JXBannerParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DEF311365AC79CF6757CEE0C920A74 /* JXBannerParams.swift */; };
+		67E79D93DC9C811C18F1FF5A539CC935 /* JXBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 174B3F0B3FAD42785356CF4E55518EDC /* JXBanner-dummy.m */; };
+		6C0F17C31E1F28363C76DD9735C609AF /* JXBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784FEDF7743046DA0C0623CAB6DCA04 /* JXBanner.swift */; };
+		78DC8611162BE4DD447825883D5D889D /* JXBannerTransformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121DB02B7922D13393631E2336C7D51 /* JXBannerTransformable.swift */; };
+		7A4F971BDF056CC4CF031B89B0FB2642 /* View+JXExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9507BDDC3B3976FBFEF71BA30C0C41 /* View+JXExtension.swift */; };
+		87452697BA38237D366FAB33060ED3C6 /* JXBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8FD5D7DD98EDF1F0F8EA9CD2EE021A /* JXBannerCell.swift */; };
+		96E3DC9F2B95934F56BE6A520C02BC69 /* JXPageControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA1B535F9C1AC8564712DFF7DA6124 /* JXPageControl.framework */; };
+		A1171C1F73909B36DD0EC8D249965948 /* JXBanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE0D1CC19ECCBC7D52BB983184D57A3 /* JXBanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD37EAF424DC5626B90A10F9A1DF458C /* JXBannerPageControlDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875FAA3DF104322A931C9C742128721 /* JXBannerPageControlDefault.swift */; };
+		D38337794F6C3BEE50DBD6B8DF2CF4D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCA6C02AE83E82D464E8E866D32E448 /* Foundation.framework */; };
+		DCDDA4D130717596C296CCAE71C6066A /* JXBannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C39FF03CDE106A54FB591CAA919540 /* JXBannerDelegate.swift */; };
+		E3C69B275D8922F8EDBD62D279DBD949 /* JXBaseBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF17F8B025894EE4B434FE0FD82ED6 /* JXBaseBanner.swift */; };
+		EE24859AA1BDAA6B6116D171D697BAB3 /* Timer+JXBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84549109B7288B53E23D88A22DF4EAA /* Timer+JXBExtension.swift */; };
+		F0D23890DDCB719BFFA5B2E844E021A3 /* JXBannerBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2F2D71AC9F3109B7C410427C48860 /* JXBannerBaseCell.swift */; };
+		F0FE143D7E4EFAF06E4DFE4A14785B3B /* JXBannerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08257EA26E3F1E4CCB46DCF9E06259F /* JXBannerDataSource.swift */; };
+		F7FB73FACA5035A3F338B160891D666B /* JXBannerLayoutParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09D20F4AF874AE760FEB5CB614C0000 /* JXBannerLayoutParams.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26E035FB467D0E970C0F7B720E8286EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A605FEF968AE9F830E6B1108F240D4 /* JXPageControl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C87FF77351F5E8AAB963FD84585FB7;
+			remoteInfo = JXPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D2F2D71AC9F3109B7C410427C48860 /* JXBannerBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerBaseCell.swift; path = JXBanner/Classes/Banner/Cell/JXBannerBaseCell.swift; sourceTree = "<group>"; };
+		066246B71955686D9F5BE90FF407C073 /* JXBanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXBanner.release.xcconfig; sourceTree = "<group>"; };
+		10EDE6A766477A1896F07976F346D94C /* JXBannerTransformCoverflow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerTransformCoverflow.swift; path = JXBanner/Classes/Banner/Transform/JXBannerTransformCoverflow.swift; sourceTree = "<group>"; };
+		13DDC5C025C23E77C6B377C211B71978 /* JXBanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXBanner.framework; path = JXBanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		174B3F0B3FAD42785356CF4E55518EDC /* JXBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXBanner-dummy.m"; sourceTree = "<group>"; };
+		25DEF311365AC79CF6757CEE0C920A74 /* JXBannerParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerParams.swift; path = JXBanner/Classes/Banner/API/JXBannerParams.swift; sourceTree = "<group>"; };
+		3FD394DCE608E80D6D6C6D9830D6295D /* JXBannerPageControlBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerPageControlBuilder.swift; path = JXBanner/Classes/PageControl/JXBannerPageControlBuilder.swift; sourceTree = "<group>"; };
+		417553D7BD8A02106E3504ED2269B64A /* JXBannerTransformContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerTransformContext.swift; path = JXBanner/Classes/Banner/Transform/JXBannerTransformContext.swift; sourceTree = "<group>"; };
+		4DBF17F8B025894EE4B434FE0FD82ED6 /* JXBaseBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBaseBanner.swift; path = JXBanner/Classes/Banner/Banner/JXBaseBanner.swift; sourceTree = "<group>"; };
+		4FE0D1CC19ECCBC7D52BB983184D57A3 /* JXBanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXBanner-umbrella.h"; sourceTree = "<group>"; };
+		5875FAA3DF104322A931C9C742128721 /* JXBannerPageControlDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerPageControlDefault.swift; path = JXBanner/Classes/PageControl/JXBannerPageControlDefault.swift; sourceTree = "<group>"; };
+		7F18D3E1DD47535059FD10DC37D72041 /* IndexPath+JXCalculate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+JXCalculate.swift"; path = "JXBanner/Classes/Banner/Common/IndexPath+JXCalculate.swift"; sourceTree = "<group>"; };
+		8091C5FBB8DE0578ACD565460C4C7F8B /* JXBanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXBanner.modulemap; sourceTree = "<group>"; };
+		83A0CC0C2C5F2B195939E32C2BBA4ABE /* JXBanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXBanner.debug.xcconfig; sourceTree = "<group>"; };
+		93C39FF03CDE106A54FB591CAA919540 /* JXBannerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerDelegate.swift; path = JXBanner/Classes/Banner/API/JXBannerDelegate.swift; sourceTree = "<group>"; };
+		9590186F7D98FF5262DFF553196E3A73 /* JXBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXBanner-prefix.pch"; sourceTree = "<group>"; };
+		9F9507BDDC3B3976FBFEF71BA30C0C41 /* View+JXExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+JXExtension.swift"; path = "JXBanner/Classes/Banner/Common/View+JXExtension.swift"; sourceTree = "<group>"; };
+		AE5FAE96C0A9C39855FF5CB7B4DF85E6 /* JXBannerTransformLinear.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerTransformLinear.swift; path = JXBanner/Classes/Banner/Transform/JXBannerTransformLinear.swift; sourceTree = "<group>"; };
+		B2A605FEF968AE9F830E6B1108F240D4 /* JXPageControl */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JXPageControl; path = JXPageControl.xcodeproj; sourceTree = "<group>"; };
+		BBAA1B535F9C1AC8564712DFF7DA6124 /* JXPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08257EA26E3F1E4CCB46DCF9E06259F /* JXBannerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerDataSource.swift; path = JXBanner/Classes/Banner/API/JXBannerDataSource.swift; sourceTree = "<group>"; };
+		C6D1C2379CDBEEF902735DEF8E08D6E5 /* JXBanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXBanner-Info.plist"; sourceTree = "<group>"; };
+		C784FEDF7743046DA0C0623CAB6DCA04 /* JXBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBanner.swift; path = JXBanner/Classes/Banner/Banner/JXBanner.swift; sourceTree = "<group>"; };
+		D09D20F4AF874AE760FEB5CB614C0000 /* JXBannerLayoutParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerLayoutParams.swift; path = JXBanner/Classes/Banner/API/JXBannerLayoutParams.swift; sourceTree = "<group>"; };
+		D121DB02B7922D13393631E2336C7D51 /* JXBannerTransformable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerTransformable.swift; path = JXBanner/Classes/Banner/API/JXBannerTransformable.swift; sourceTree = "<group>"; };
+		D9CCAE7A7AD5E016A2D1B92229E6B8F7 /* JXBannerTransfrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerTransfrom.swift; path = JXBanner/Classes/Banner/Transform/JXBannerTransfrom.swift; sourceTree = "<group>"; };
+		DCCA6C02AE83E82D464E8E866D32E448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD8FD5D7DD98EDF1F0F8EA9CD2EE021A /* JXBannerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerCell.swift; path = JXBanner/Classes/Banner/Cell/JXBannerCell.swift; sourceTree = "<group>"; };
+		E51EFC3C833C63C956549D1AC34FE6AF /* JXBannerLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerLayout.swift; path = JXBanner/Classes/Banner/Banner/JXBannerLayout.swift; sourceTree = "<group>"; };
+		EABB31BDB6C94B01A001619DFD6BB2D1 /* JXBannerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXBannerType.swift; path = JXBanner/Classes/Banner/API/JXBannerType.swift; sourceTree = "<group>"; };
+		F84549109B7288B53E23D88A22DF4EAA /* Timer+JXBExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Timer+JXBExtension.swift"; path = "JXBanner/Classes/Banner/Common/Timer+JXBExtension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AF9BFC7D1999DB7765949E00565A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38337794F6C3BEE50DBD6B8DF2CF4D5 /* Foundation.framework in Frameworks */,
+				96E3DC9F2B95934F56BE6A520C02BC69 /* JXPageControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A8F1DE9051ACB992D9726DF3147D4C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA6C02AE83E82D464E8E866D32E448 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0CEEEBCF0D76F940967A71633A974CDF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7F18D3E1DD47535059FD10DC37D72041 /* IndexPath+JXCalculate.swift */,
+				F84549109B7288B53E23D88A22DF4EAA /* Timer+JXBExtension.swift */,
+				9F9507BDDC3B3976FBFEF71BA30C0C41 /* View+JXExtension.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		101BD1BA9CC3F709B90392E02680A36D /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				B2A605FEF968AE9F830E6B1108F240D4 /* JXPageControl */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		16E9FE316E46B4BB419948978CCC9178 /* JXBanner */ = {
+			isa = PBXGroup;
+			children = (
+				BBF50D5EF04BD5449AA156AB5E50985C /* Banner */,
+				5E8130DBED76A14EADE6685F93D5466F /* PageControl */,
+				F860F2888716BAB948B748A8A479E532 /* Support Files */,
+			);
+			name = JXBanner;
+			path = JXBanner;
+			sourceTree = "<group>";
+		};
+		28C3ED570E59B530D4BD04D04D58FB52 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				C784FEDF7743046DA0C0623CAB6DCA04 /* JXBanner.swift */,
+				E51EFC3C833C63C956549D1AC34FE6AF /* JXBannerLayout.swift */,
+				4DBF17F8B025894EE4B434FE0FD82ED6 /* JXBaseBanner.swift */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		4CD794CF8393C60DBF582FC695ADE35E /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				417553D7BD8A02106E3504ED2269B64A /* JXBannerTransformContext.swift */,
+				10EDE6A766477A1896F07976F346D94C /* JXBannerTransformCoverflow.swift */,
+				AE5FAE96C0A9C39855FF5CB7B4DF85E6 /* JXBannerTransformLinear.swift */,
+				D9CCAE7A7AD5E016A2D1B92229E6B8F7 /* JXBannerTransfrom.swift */,
+			);
+			name = Transform;
+			sourceTree = "<group>";
+		};
+		5E8130DBED76A14EADE6685F93D5466F /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				3FD394DCE608E80D6D6C6D9830D6295D /* JXBannerPageControlBuilder.swift */,
+				5875FAA3DF104322A931C9C742128721 /* JXBannerPageControlDefault.swift */,
+			);
+			name = PageControl;
+			sourceTree = "<group>";
+		};
+		91A07CF61C91A4A3BE3B01C476C1CEF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAA1B535F9C1AC8564712DFF7DA6124 /* JXPageControl.framework */,
+				06A8F1DE9051ACB992D9726DF3147D4C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9321B5F86B715725FD63176CB1B288F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13DDC5C025C23E77C6B377C211B71978 /* JXBanner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC821BC6CAE1BACFB93D00C31B63DE85 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				02D2F2D71AC9F3109B7C410427C48860 /* JXBannerBaseCell.swift */,
+				DD8FD5D7DD98EDF1F0F8EA9CD2EE021A /* JXBannerCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		B21225FB8525DACED0300E79731B9DD1 = {
+			isa = PBXGroup;
+			children = (
+				101BD1BA9CC3F709B90392E02680A36D /* Dependencies */,
+				91A07CF61C91A4A3BE3B01C476C1CEF3 /* Frameworks */,
+				16E9FE316E46B4BB419948978CCC9178 /* JXBanner */,
+				9321B5F86B715725FD63176CB1B288F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF50D5EF04BD5449AA156AB5E50985C /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				F73537820AAF169000636CA7ECEFDB6B /* API */,
+				28C3ED570E59B530D4BD04D04D58FB52 /* Banner */,
+				AC821BC6CAE1BACFB93D00C31B63DE85 /* Cell */,
+				0CEEEBCF0D76F940967A71633A974CDF /* Common */,
+				4CD794CF8393C60DBF582FC695ADE35E /* Transform */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		F73537820AAF169000636CA7ECEFDB6B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C08257EA26E3F1E4CCB46DCF9E06259F /* JXBannerDataSource.swift */,
+				93C39FF03CDE106A54FB591CAA919540 /* JXBannerDelegate.swift */,
+				D09D20F4AF874AE760FEB5CB614C0000 /* JXBannerLayoutParams.swift */,
+				25DEF311365AC79CF6757CEE0C920A74 /* JXBannerParams.swift */,
+				D121DB02B7922D13393631E2336C7D51 /* JXBannerTransformable.swift */,
+				EABB31BDB6C94B01A001619DFD6BB2D1 /* JXBannerType.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		F860F2888716BAB948B748A8A479E532 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8091C5FBB8DE0578ACD565460C4C7F8B /* JXBanner.modulemap */,
+				174B3F0B3FAD42785356CF4E55518EDC /* JXBanner-dummy.m */,
+				C6D1C2379CDBEEF902735DEF8E08D6E5 /* JXBanner-Info.plist */,
+				9590186F7D98FF5262DFF553196E3A73 /* JXBanner-prefix.pch */,
+				4FE0D1CC19ECCBC7D52BB983184D57A3 /* JXBanner-umbrella.h */,
+				83A0CC0C2C5F2B195939E32C2BBA4ABE /* JXBanner.debug.xcconfig */,
+				066246B71955686D9F5BE90FF407C073 /* JXBanner.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JXBanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		795E6DD4EA7C6F0E1E09A0B558DD7D07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1171C1F73909B36DD0EC8D249965948 /* JXBanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B7C6BADDF4C76F9D4CC9C8E56C503B2 /* JXBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445920BF41D9B0C44B24A0DAAB43147D /* Build configuration list for PBXNativeTarget "JXBanner" */;
+			buildPhases = (
+				795E6DD4EA7C6F0E1E09A0B558DD7D07 /* Headers */,
+				7A1174E11089FFABA1965D2A9257A98C /* Sources */,
+				41AF9BFC7D1999DB7765949E00565A11 /* Frameworks */,
+				F0157149B1522826CE719367E3C27109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A43A93ACC3389CC294F400DDEAD6850 /* PBXTargetDependency */,
+			);
+			name = JXBanner;
+			productName = JXBanner;
+			productReference = 13DDC5C025C23E77C6B377C211B71978 /* JXBanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7805F11381E35DBB3A8E1AADCCEC61E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 37306D6C9BD208A864EB04C34511AB3D /* Build configuration list for PBXProject "JXBanner" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B21225FB8525DACED0300E79731B9DD1;
+			productRefGroup = 9321B5F86B715725FD63176CB1B288F1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = B2A605FEF968AE9F830E6B1108F240D4 /* JXPageControl */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7B7C6BADDF4C76F9D4CC9C8E56C503B2 /* JXBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0157149B1522826CE719367E3C27109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1174E11089FFABA1965D2A9257A98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0071168C838486E99A43A8203B6EB8EC /* IndexPath+JXCalculate.swift in Sources */,
+				67E79D93DC9C811C18F1FF5A539CC935 /* JXBanner-dummy.m in Sources */,
+				6C0F17C31E1F28363C76DD9735C609AF /* JXBanner.swift in Sources */,
+				F0D23890DDCB719BFFA5B2E844E021A3 /* JXBannerBaseCell.swift in Sources */,
+				87452697BA38237D366FAB33060ED3C6 /* JXBannerCell.swift in Sources */,
+				F0FE143D7E4EFAF06E4DFE4A14785B3B /* JXBannerDataSource.swift in Sources */,
+				DCDDA4D130717596C296CCAE71C6066A /* JXBannerDelegate.swift in Sources */,
+				0DCC72B0EFC606A6532E05D9DE20C080 /* JXBannerLayout.swift in Sources */,
+				F7FB73FACA5035A3F338B160891D666B /* JXBannerLayoutParams.swift in Sources */,
+				1290FEECC5B460874FF4E7954F9DC6EA /* JXBannerPageControlBuilder.swift in Sources */,
+				AD37EAF424DC5626B90A10F9A1DF458C /* JXBannerPageControlDefault.swift in Sources */,
+				67A20580019062912226B6D0CBFB5678 /* JXBannerParams.swift in Sources */,
+				78DC8611162BE4DD447825883D5D889D /* JXBannerTransformable.swift in Sources */,
+				2D1D3A969CD2E3C4E2DE54640C64DB21 /* JXBannerTransformContext.swift in Sources */,
+				3ABF58B528B6D8242063C8B3B6175129 /* JXBannerTransformCoverflow.swift in Sources */,
+				120F5FC78A511D4AF5802734E8F3B0A9 /* JXBannerTransformLinear.swift in Sources */,
+				6230E5C69FBF5677EC8BBF7D56FAFB0B /* JXBannerTransfrom.swift in Sources */,
+				295DDB348C6A852F93B4AAE6EAE9A590 /* JXBannerType.swift in Sources */,
+				E3C69B275D8922F8EDBD62D279DBD949 /* JXBaseBanner.swift in Sources */,
+				EE24859AA1BDAA6B6116D171D697BAB3 /* Timer+JXBExtension.swift in Sources */,
+				7A4F971BDF056CC4CF031B89B0FB2642 /* View+JXExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A43A93ACC3389CC294F400DDEAD6850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXPageControl;
+			targetProxy = 26E035FB467D0E970C0F7B720E8286EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		023AFEDF077CE8ECA9D70010AA34ADD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51373EA93F01246A3A8821759F1D161D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BBC1CD6B112E5DBFC212B6FD6E72FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A0CC0C2C5F2B195939E32C2BBA4ABE /* JXBanner.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXBanner/JXBanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXBanner/JXBanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JXBanner/JXBanner.modulemap";
+				PRODUCT_MODULE_NAME = JXBanner;
+				PRODUCT_NAME = JXBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEC64C3447E40B09C380ED1825C15FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066246B71955686D9F5BE90FF407C073 /* JXBanner.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXBanner/JXBanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXBanner/JXBanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JXBanner/JXBanner.modulemap";
+				PRODUCT_MODULE_NAME = JXBanner;
+				PRODUCT_NAME = JXBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37306D6C9BD208A864EB04C34511AB3D /* Build configuration list for PBXProject "JXBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023AFEDF077CE8ECA9D70010AA34ADD5 /* Debug */,
+				51373EA93F01246A3A8821759F1D161D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445920BF41D9B0C44B24A0DAAB43147D /* Build configuration list for PBXNativeTarget "JXBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC1CD6B112E5DBFC212B6FD6E72FB16 /* Debug */,
+				BEC64C3447E40B09C380ED1825C15FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7805F11381E35DBB3A8E1AADCCEC61E5 /* Project object */;
+}

@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60AFDF07CFCB46762E2EDA9EE0F50FFC /* JXPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBAAA2A74CFBE4CD92ABA00C362AC00 /* JXPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		676E7C02AF602B8D7DA8A20DC168F617 /* JXPageControlBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D850BE737C04021D51346B89E368DF9 /* JXPageControlBase.swift */; };
+		685380D10B3DEFC0420B6360AC41FD90 /* JXPageControlJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003C4AD7D3C52F380F59ACC6C2D8871 /* JXPageControlJump.swift */; };
+		76DB1977A12F06377BE4CE405BF36E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84730ED5B7AB11D6D9718F3F6B1C3E54 /* Foundation.framework */; };
+		8113E1FAD33E9142CBA57D0E6E8050B8 /* JXPageControlExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779BE0E23899747BCB301720D480151 /* JXPageControlExchange.swift */; };
+		960801751756C9EC1E51A830D83C04CE /* JXPageControlFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D43C4DCA763BD4277FAC8EDD58A4954 /* JXPageControlFill.swift */; };
+		A083D63F7A95FC91FC5578101D042005 /* JXPageControlLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF69DF212E17177A16E1ADB51EF5CD6 /* JXPageControlLine.swift */; };
+		A72A5ED3C9A0D48ABBFA4E409666B6EB /* JXPageControlTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98B058F1613FDA933DA3A3CE44BC08 /* JXPageControlTool.swift */; };
+		CBF9DFAF515820D23A3790E3FE214160 /* JXPageControlBoldLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE63DD671F20C4F081C0A88B9683C70 /* JXPageControlBoldLine.swift */; };
+		CC661A5BF463FE3E78C8983E338CEFBC /* JXPageControlChameleon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41564968B0BDD0B965CA72E744CD3DDF /* JXPageControlChameleon.swift */; };
+		CCA1C4C0427B566D2F01922502F7B945 /* JXPageControlEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE849AA27B9AE91E86B9744C5DD15D1 /* JXPageControlEllipse.swift */; };
+		D0A4847CE64C7841FB9EF40086EB738B /* JXPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C9F14DFFE7CB8B4DBC22084707D6A /* JXPageControl-dummy.m */; };
+		E50146404E2FD111A25C8339A9E7D17D /* JXPageControlScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441C9C435ED61366CA39044D2B0C54D /* JXPageControlScale.swift */; };
+		F96058ADE5180D8A035DB8FC02F49AE8 /* JXPageControlType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12F7D6A109465AA1C15CC9310156A9 /* JXPageControlType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D43C4DCA763BD4277FAC8EDD58A4954 /* JXPageControlFill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlFill.swift; path = JXPageControl/Classes/Transform/JXPageControlFill.swift; sourceTree = "<group>"; };
+		3D850BE737C04021D51346B89E368DF9 /* JXPageControlBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlBase.swift; path = JXPageControl/Classes/Common/JXPageControlBase.swift; sourceTree = "<group>"; };
+		3DF69DF212E17177A16E1ADB51EF5CD6 /* JXPageControlLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlLine.swift; path = JXPageControl/Classes/Jump/JXPageControlLine.swift; sourceTree = "<group>"; };
+		41564968B0BDD0B965CA72E744CD3DDF /* JXPageControlChameleon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlChameleon.swift; path = JXPageControl/Classes/Transform/JXPageControlChameleon.swift; sourceTree = "<group>"; };
+		418B0470F7D52A1E0B7359D2CF8A2612 /* JXPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXPageControl.framework; path = JXPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E12F7D6A109465AA1C15CC9310156A9 /* JXPageControlType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlType.swift; path = JXPageControl/Classes/Common/JXPageControlType.swift; sourceTree = "<group>"; };
+		5003C4AD7D3C52F380F59ACC6C2D8871 /* JXPageControlJump.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlJump.swift; path = JXPageControl/Classes/Jump/JXPageControlJump.swift; sourceTree = "<group>"; };
+		6BBAAA2A74CFBE4CD92ABA00C362AC00 /* JXPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPageControl-umbrella.h"; sourceTree = "<group>"; };
+		709F833319FE3DA61DA76A6F0ADA5D25 /* JXPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXPageControl-Info.plist"; sourceTree = "<group>"; };
+		84730ED5B7AB11D6D9718F3F6B1C3E54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8FE849AA27B9AE91E86B9744C5DD15D1 /* JXPageControlEllipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlEllipse.swift; path = JXPageControl/Classes/Jump/JXPageControlEllipse.swift; sourceTree = "<group>"; };
+		974EC1C3D953F0910AE148C57696807E /* JXPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXPageControl.modulemap; sourceTree = "<group>"; };
+		9D5C9F14DFFE7CB8B4DBC22084707D6A /* JXPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXPageControl-dummy.m"; sourceTree = "<group>"; };
+		A42FDEBD24A234FBCE38057B889EFBA1 /* JXPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPageControl-prefix.pch"; sourceTree = "<group>"; };
+		B779BE0E23899747BCB301720D480151 /* JXPageControlExchange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlExchange.swift; path = JXPageControl/Classes/Transform/JXPageControlExchange.swift; sourceTree = "<group>"; };
+		BBE63DD671F20C4F081C0A88B9683C70 /* JXPageControlBoldLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlBoldLine.swift; path = JXPageControl/Classes/Jump/JXPageControlBoldLine.swift; sourceTree = "<group>"; };
+		BE98B058F1613FDA933DA3A3CE44BC08 /* JXPageControlTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlTool.swift; path = JXPageControl/Classes/Common/JXPageControlTool.swift; sourceTree = "<group>"; };
+		C441C9C435ED61366CA39044D2B0C54D /* JXPageControlScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPageControlScale.swift; path = JXPageControl/Classes/Transform/JXPageControlScale.swift; sourceTree = "<group>"; };
+		EBFDCC30F2794AC64327853277E27229 /* JXPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPageControl.debug.xcconfig; sourceTree = "<group>"; };
+		F56F511C810B5B8576B3BF21DD3D346F /* JXPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPageControl.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4E91C7DD1C214A377E2EB0EAAC1579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DB1977A12F06377BE4CE405BF36E8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3E8E0995F910A68DBA6192ADE5833D /* Jump */ = {
+			isa = PBXGroup;
+			children = (
+				BBE63DD671F20C4F081C0A88B9683C70 /* JXPageControlBoldLine.swift */,
+				8FE849AA27B9AE91E86B9744C5DD15D1 /* JXPageControlEllipse.swift */,
+				5003C4AD7D3C52F380F59ACC6C2D8871 /* JXPageControlJump.swift */,
+				3DF69DF212E17177A16E1ADB51EF5CD6 /* JXPageControlLine.swift */,
+			);
+			name = Jump;
+			sourceTree = "<group>";
+		};
+		8AEC190F73802E501264C93A47BEB95A /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				41564968B0BDD0B965CA72E744CD3DDF /* JXPageControlChameleon.swift */,
+				B779BE0E23899747BCB301720D480151 /* JXPageControlExchange.swift */,
+				3D43C4DCA763BD4277FAC8EDD58A4954 /* JXPageControlFill.swift */,
+				C441C9C435ED61366CA39044D2B0C54D /* JXPageControlScale.swift */,
+			);
+			name = Transform;
+			sourceTree = "<group>";
+		};
+		8E6D53F5E8D57B9C99DF0A949AC3A097 /* JXPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				9EFAE2CED85AF5E05C9A7E018A4C26EA /* Common */,
+				1F3E8E0995F910A68DBA6192ADE5833D /* Jump */,
+				F65DFF21F01542E2A3E94537AAA3B98D /* Support Files */,
+				8AEC190F73802E501264C93A47BEB95A /* Transform */,
+			);
+			name = JXPageControl;
+			path = JXPageControl;
+			sourceTree = "<group>";
+		};
+		9DC1012D9D823A88EA543A7C104F272F = {
+			isa = PBXGroup;
+			children = (
+				FC82B23F0035201789FEA8161A53090D /* Frameworks */,
+				8E6D53F5E8D57B9C99DF0A949AC3A097 /* JXPageControl */,
+				E58A31A649908369AFE57294BFDD7BEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EFAE2CED85AF5E05C9A7E018A4C26EA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D850BE737C04021D51346B89E368DF9 /* JXPageControlBase.swift */,
+				BE98B058F1613FDA933DA3A3CE44BC08 /* JXPageControlTool.swift */,
+				4E12F7D6A109465AA1C15CC9310156A9 /* JXPageControlType.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		BA1E8AFD4FE976AC86F6C2EB6200688B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84730ED5B7AB11D6D9718F3F6B1C3E54 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E58A31A649908369AFE57294BFDD7BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418B0470F7D52A1E0B7359D2CF8A2612 /* JXPageControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65DFF21F01542E2A3E94537AAA3B98D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				974EC1C3D953F0910AE148C57696807E /* JXPageControl.modulemap */,
+				9D5C9F14DFFE7CB8B4DBC22084707D6A /* JXPageControl-dummy.m */,
+				709F833319FE3DA61DA76A6F0ADA5D25 /* JXPageControl-Info.plist */,
+				A42FDEBD24A234FBCE38057B889EFBA1 /* JXPageControl-prefix.pch */,
+				6BBAAA2A74CFBE4CD92ABA00C362AC00 /* JXPageControl-umbrella.h */,
+				EBFDCC30F2794AC64327853277E27229 /* JXPageControl.debug.xcconfig */,
+				F56F511C810B5B8576B3BF21DD3D346F /* JXPageControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JXPageControl";
+			sourceTree = "<group>";
+		};
+		FC82B23F0035201789FEA8161A53090D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E8AFD4FE976AC86F6C2EB6200688B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		334E1B61EDBC56E5F4ABE697B0BAC5FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AFDF07CFCB46762E2EDA9EE0F50FFC /* JXPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F3C87FF77351F5E8AAB963FD84585FB7 /* JXPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BC99C10BD48B228D8E843D3D523AA1 /* Build configuration list for PBXNativeTarget "JXPageControl" */;
+			buildPhases = (
+				334E1B61EDBC56E5F4ABE697B0BAC5FA /* Headers */,
+				7A16C85576EAA3E246E30FA0E46E1839 /* Sources */,
+				FF4E91C7DD1C214A377E2EB0EAAC1579 /* Frameworks */,
+				C2A6B04D03A9EED663C31E98C45D9060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXPageControl;
+			productName = JXPageControl;
+			productReference = 418B0470F7D52A1E0B7359D2CF8A2612 /* JXPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3233AF450301D200E63094837276770D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 082855497EB8512ECA209BDB37722EB9 /* Build configuration list for PBXProject "JXPageControl" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC1012D9D823A88EA543A7C104F272F;
+			productRefGroup = E58A31A649908369AFE57294BFDD7BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C87FF77351F5E8AAB963FD84585FB7 /* JXPageControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A6B04D03A9EED663C31E98C45D9060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A16C85576EAA3E246E30FA0E46E1839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A4847CE64C7841FB9EF40086EB738B /* JXPageControl-dummy.m in Sources */,
+				676E7C02AF602B8D7DA8A20DC168F617 /* JXPageControlBase.swift in Sources */,
+				CBF9DFAF515820D23A3790E3FE214160 /* JXPageControlBoldLine.swift in Sources */,
+				CC661A5BF463FE3E78C8983E338CEFBC /* JXPageControlChameleon.swift in Sources */,
+				CCA1C4C0427B566D2F01922502F7B945 /* JXPageControlEllipse.swift in Sources */,
+				8113E1FAD33E9142CBA57D0E6E8050B8 /* JXPageControlExchange.swift in Sources */,
+				960801751756C9EC1E51A830D83C04CE /* JXPageControlFill.swift in Sources */,
+				685380D10B3DEFC0420B6360AC41FD90 /* JXPageControlJump.swift in Sources */,
+				A083D63F7A95FC91FC5578101D042005 /* JXPageControlLine.swift in Sources */,
+				E50146404E2FD111A25C8339A9E7D17D /* JXPageControlScale.swift in Sources */,
+				A72A5ED3C9A0D48ABBFA4E409666B6EB /* JXPageControlTool.swift in Sources */,
+				F96058ADE5180D8A035DB8FC02F49AE8 /* JXPageControlType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17BCC1BCB97C12F01A9F9BC8D2D43161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7A6D8B404D950043C43D77F0A459CF78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFDCC30F2794AC64327853277E27229 /* JXPageControl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXPageControl/JXPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXPageControl/JXPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JXPageControl/JXPageControl.modulemap";
+				PRODUCT_MODULE_NAME = JXPageControl;
+				PRODUCT_NAME = JXPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		840ABA09FDAA61512A9FB380A5B26367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56F511C810B5B8576B3BF21DD3D346F /* JXPageControl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXPageControl/JXPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXPageControl/JXPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JXPageControl/JXPageControl.modulemap";
+				PRODUCT_MODULE_NAME = JXPageControl;
+				PRODUCT_NAME = JXPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8DBC7A77AE752CA783A7898B24A0344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082855497EB8512ECA209BDB37722EB9 /* Build configuration list for PBXProject "JXPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BCC1BCB97C12F01A9F9BC8D2D43161 /* Debug */,
+				D8DBC7A77AE752CA783A7898B24A0344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BC99C10BD48B228D8E843D3D523AA1 /* Build configuration list for PBXNativeTarget "JXPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6D8B404D950043C43D77F0A459CF78 /* Debug */,
+				840ABA09FDAA61512A9FB380A5B26367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3233AF450301D200E63094837276770D /* Project object */;
+}

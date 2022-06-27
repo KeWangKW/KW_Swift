@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D09310D7E9A593BC3D33843E9785644D /* mob_sharesdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 32B95076A5223454AC30D681F49A1963 /* Build configuration list for PBXAggregateTarget "mob_sharesdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+				8E0AB65889F41F84C0BC3B35C6F8E3C0 /* PBXTargetDependency */,
+				ECE387F5C9832FE7FBD30FE15644CCF3 /* PBXTargetDependency */,
+				E9A5C7DE250EA09B7FB06B125E9C677D /* PBXTargetDependency */,
+			);
+			name = mob_sharesdk;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		11827EA43727F61EFC619D6B6EEF4004 /* NativeExt.js in Resources */ = {isa = PBXBuildFile; fileRef = C35117C06082A373FF990A1062B0574D /* NativeExt.js */; };
+		3D522282B1ADBA4A5151CCD04A7B2052 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A6D453C64278C9D4BA03337FCA6FA091 /* Base.lproj */; };
+		A3C899DB8D600F1333388724A410FF50 /* ShareSDK.js in Resources */ = {isa = PBXBuildFile; fileRef = 32E46B8ED7EBC3844F372913DFB073A8 /* ShareSDK.js */; };
+		A3ED5B71967C174BEDB31DB282A55DD2 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9CA40EAB309E963AB2742BE8ABAF948E /* zh-Hans.lproj */; };
+		DD83615E348490117DF764D1261A2769 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B65DA2815DCD2F897BC8A8B46B598CC2 /* en.lproj */; };
+		EC3DB8D8041C751A3A9D680144633735 /* WeChat.js in Resources */ = {isa = PBXBuildFile; fileRef = 2A1B9379D3294626AD266F7E95879081 /* WeChat.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8536793B433423CC9D9287940AE41958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA14379BB572E70E606EF85CB9D65B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6A28D2E499DF5C7AD1D84CF910B477;
+			remoteInfo = "mob_sharesdk-ShareSDK";
+		};
+		B034533B7C998F08BAE05570DFAC4BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DED7DAEEC5A0A5CD70355F420702886 /* MOBFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B3C794B90C02AC61C66EC97E5FAD0F;
+			remoteInfo = MOBFoundation;
+		};
+		DE7EDEFA0C814C8949D8433CE9A3349B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA14379BB572E70E606EF85CB9D65B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6673F704346443BF383C4C9196CAA383;
+			remoteInfo = "mob_sharesdk-ShareSDK_JS_WeChat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A1B9379D3294626AD266F7E95879081 /* WeChat.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WeChat.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/platforms/WeChat.js; sourceTree = "<group>"; };
+		2D83283D8F182ED3E8F581C7BEA7C1C7 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = ShareSDK/Support/PlatformSDK/WeChatSDKFull/WXApiObject.h; sourceTree = "<group>"; };
+		32E46B8ED7EBC3844F372913DFB073A8 /* ShareSDK.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ShareSDK.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/ShareSDK.js; sourceTree = "<group>"; };
+		33940A25B2D8DF254AC44934951DED2C /* ShareSDK_JS_WeChat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ShareSDK_JS_WeChat.bundle; path = "mob_sharesdk-ShareSDK_JS_WeChat.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D5117A38D2AEA502037EB3E51C96A2 /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKUI.framework; path = ShareSDK/Support/Optional/ShareSDKUI.framework; sourceTree = "<group>"; };
+		577E1B053169CA5D3FE123FB57E6627E /* ShareSDKUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDKUI.bundle; path = ShareSDK/Support/Optional/ShareSDKUI.bundle; sourceTree = "<group>"; };
+		6DED7DAEEC5A0A5CD70355F420702886 /* MOBFoundation */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MOBFoundation; path = MOBFoundation.xcodeproj; sourceTree = "<group>"; };
+		70A11DEED5B96FC5D68DB9194D74D6CE /* WechatConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WechatConnector.framework; path = ShareSDK/Support/PlatformConnector/WechatConnector.framework; sourceTree = "<group>"; };
+		950341821A6EB52451E222BD985FFFF7 /* ShareSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ShareSDK.bundle; path = "mob_sharesdk-ShareSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C28F7DC0CE34D6E3266DF5286F6F263 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = ShareSDK/Support/PlatformSDK/WeChatSDKFull/libWeChatSDK.a; sourceTree = "<group>"; };
+		9CA40EAB309E963AB2742BE8ABAF948E /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "ShareSDK/Support/Required/ShareSDK.bundle/zh-Hans.lproj"; sourceTree = "<group>"; };
+		9E6B5D5330D68D3BE381F460DD40E9AD /* mob_sharesdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mob_sharesdk.release.xcconfig; sourceTree = "<group>"; };
+		A37DDB0A1A06ACC0D721E85161FCC1F2 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = ShareSDK/Support/PlatformSDK/WeChatSDKFull/WechatAuthSDK.h; sourceTree = "<group>"; };
+		A6D453C64278C9D4BA03337FCA6FA091 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = ShareSDK/Support/Required/ShareSDK.bundle/Base.lproj; sourceTree = "<group>"; };
+		B65DA2815DCD2F897BC8A8B46B598CC2 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = ShareSDK/Support/Required/ShareSDK.bundle/en.lproj; sourceTree = "<group>"; };
+		BAA7B16891AA21D8D8A1D40FDB04A7B0 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
+		C35117C06082A373FF990A1062B0574D /* NativeExt.js */ = {isa = PBXFileReference; includeInIndex = 1; name = NativeExt.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/NativeExt.js; sourceTree = "<group>"; };
+		CBAAE8EBD2FB57AB60BA486B1C74DA94 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = ShareSDK/Support/PlatformSDK/WeChatSDKFull/WXApi.h; sourceTree = "<group>"; };
+		D8B1C22AF9B40E070354D783C0431C69 /* ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		F039B2D9D376D88C2F473E9CF3658896 /* ResourceBundle-ShareSDK-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		F24B04B1A05951DDB0C1E42C313B31B3 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
+		F8528839E1834FA951E31AD13069DDFB /* mob_sharesdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mob_sharesdk.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16366A6EDADC490BDA04A45310FE1A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC96A0F28BCA6C99549E24A77977D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088AD2B10564B5FD29C89AFC0EF91B62 /* ShareSDKPlatforms */ = {
+			isa = PBXGroup;
+			children = (
+				40BBF5C917A9C9491D4A37436C1E78AF /* WeChatFull */,
+			);
+			name = ShareSDKPlatforms;
+			sourceTree = "<group>";
+		};
+		21DB31568715A0E099E3C18728BBCCB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6D453C64278C9D4BA03337FCA6FA091 /* Base.lproj */,
+				B65DA2815DCD2F897BC8A8B46B598CC2 /* en.lproj */,
+				C35117C06082A373FF990A1062B0574D /* NativeExt.js */,
+				32E46B8ED7EBC3844F372913DFB073A8 /* ShareSDK.js */,
+				9CA40EAB309E963AB2742BE8ABAF948E /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E7AF0F851A62D2E1C142ED13B7E67E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C28F7DC0CE34D6E3266DF5286F6F263 /* libWeChatSDK.a */,
+				70A11DEED5B96FC5D68DB9194D74D6CE /* WechatConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		409FDCA8E07AFCFE79DF07A28EB3328A /* mob_sharesdk */ = {
+			isa = PBXGroup;
+			children = (
+				8F7019E9320EA1F5BE2C1CA7862FD725 /* ShareSDK */,
+				088AD2B10564B5FD29C89AFC0EF91B62 /* ShareSDKPlatforms */,
+				F925D905A665A00FDB179DEC6697E9E8 /* ShareSDKUI */,
+				B9F63A4A8A463E3C8DD62BC51B1FF713 /* Support Files */,
+			);
+			name = mob_sharesdk;
+			path = mob_sharesdk;
+			sourceTree = "<group>";
+		};
+		40BBF5C917A9C9491D4A37436C1E78AF /* WeChatFull */ = {
+			isa = PBXGroup;
+			children = (
+				A37DDB0A1A06ACC0D721E85161FCC1F2 /* WechatAuthSDK.h */,
+				CBAAE8EBD2FB57AB60BA486B1C74DA94 /* WXApi.h */,
+				2D83283D8F182ED3E8F581C7BEA7C1C7 /* WXApiObject.h */,
+				3E7AF0F851A62D2E1C142ED13B7E67E7 /* Frameworks */,
+				6CCF522F003CFCF69325397EEFE75262 /* Resources */,
+			);
+			name = WeChatFull;
+			sourceTree = "<group>";
+		};
+		5BEBD1B8CF33EF155A56F7C8D87B3A61 = {
+			isa = PBXGroup;
+			children = (
+				70E98FB3891A3A50283FD44615DAEFE1 /* Dependencies */,
+				B955F73927D927193F415F0264F47DD4 /* Frameworks */,
+				409FDCA8E07AFCFE79DF07A28EB3328A /* mob_sharesdk */,
+				EC23B44596BC551F8BDEBD6775BAFF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ACDB1CB80CBD6B3E493C1CE4E678A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D5117A38D2AEA502037EB3E51C96A2 /* ShareSDKUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CCF522F003CFCF69325397EEFE75262 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B9379D3294626AD266F7E95879081 /* WeChat.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70E98FB3891A3A50283FD44615DAEFE1 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				6DED7DAEEC5A0A5CD70355F420702886 /* MOBFoundation */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		8F7019E9320EA1F5BE2C1CA7862FD725 /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				97CF097CDCBEC5096A5874946531439C /* Frameworks */,
+				21DB31568715A0E099E3C18728BBCCB2 /* Resources */,
+			);
+			name = ShareSDK;
+			sourceTree = "<group>";
+		};
+		97CF097CDCBEC5096A5874946531439C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAA7B16891AA21D8D8A1D40FDB04A7B0 /* ShareSDK.framework */,
+				F24B04B1A05951DDB0C1E42C313B31B3 /* ShareSDKConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B955F73927D927193F415F0264F47DD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F63A4A8A463E3C8DD62BC51B1FF713 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8528839E1834FA951E31AD13069DDFB /* mob_sharesdk.debug.xcconfig */,
+				9E6B5D5330D68D3BE381F460DD40E9AD /* mob_sharesdk.release.xcconfig */,
+				F039B2D9D376D88C2F473E9CF3658896 /* ResourceBundle-ShareSDK-mob_sharesdk-Info.plist */,
+				D8B1C22AF9B40E070354D783C0431C69 /* ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mob_sharesdk";
+			sourceTree = "<group>";
+		};
+		EC23B44596BC551F8BDEBD6775BAFF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				950341821A6EB52451E222BD985FFFF7 /* ShareSDK.bundle */,
+				33940A25B2D8DF254AC44934951DED2C /* ShareSDK_JS_WeChat.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F925D905A665A00FDB179DEC6697E9E8 /* ShareSDKUI */ = {
+			isa = PBXGroup;
+			children = (
+				6ACDB1CB80CBD6B3E493C1CE4E678A0B /* Frameworks */,
+				FF9A7E40805590BE3BA643095D02F6ED /* Resources */,
+			);
+			name = ShareSDKUI;
+			sourceTree = "<group>";
+		};
+		FF9A7E40805590BE3BA643095D02F6ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				577E1B053169CA5D3FE123FB57E6627E /* ShareSDKUI.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C6A28D2E499DF5C7AD1D84CF910B477 /* mob_sharesdk-ShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617EEDA6076C463EEB4F69C4E5309FC5 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK" */;
+			buildPhases = (
+				FDD0649700E86E9BA705B7536C6BF844 /* Sources */,
+				16366A6EDADC490BDA04A45310FE1A5A /* Frameworks */,
+				96E61A39668FA67040073D7658756C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK";
+			productName = "mob_sharesdk-ShareSDK";
+			productReference = 950341821A6EB52451E222BD985FFFF7 /* ShareSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6673F704346443BF383C4C9196CAA383 /* mob_sharesdk-ShareSDK_JS_WeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FED1DD00333B05DF6180157451FF30D /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_WeChat" */;
+			buildPhases = (
+				4930D88F6D8E40D4617781A71EB21B81 /* Sources */,
+				4EC96A0F28BCA6C99549E24A77977D89 /* Frameworks */,
+				3DF23D5A0EFBB7141921309470E7BB59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK_JS_WeChat";
+			productName = "mob_sharesdk-ShareSDK_JS_WeChat";
+			productReference = 33940A25B2D8DF254AC44934951DED2C /* ShareSDK_JS_WeChat.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA14379BB572E70E606EF85CB9D65B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = DC07695C9B399E4634BC0616F96A6000 /* Build configuration list for PBXProject "mob_sharesdk" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BEBD1B8CF33EF155A56F7C8D87B3A61;
+			productRefGroup = EC23B44596BC551F8BDEBD6775BAFF1A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 6DED7DAEEC5A0A5CD70355F420702886 /* MOBFoundation */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D09310D7E9A593BC3D33843E9785644D /* mob_sharesdk */,
+				3C6A28D2E499DF5C7AD1D84CF910B477 /* mob_sharesdk-ShareSDK */,
+				6673F704346443BF383C4C9196CAA383 /* mob_sharesdk-ShareSDK_JS_WeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF23D5A0EFBB7141921309470E7BB59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3DB8D8041C751A3A9D680144633735 /* WeChat.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E61A39668FA67040073D7658756C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D522282B1ADBA4A5151CCD04A7B2052 /* Base.lproj in Resources */,
+				DD83615E348490117DF764D1261A2769 /* en.lproj in Resources */,
+				11827EA43727F61EFC619D6B6EEF4004 /* NativeExt.js in Resources */,
+				A3C899DB8D600F1333388724A410FF50 /* ShareSDK.js in Resources */,
+				A3ED5B71967C174BEDB31DB282A55DD2 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4930D88F6D8E40D4617781A71EB21B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD0649700E86E9BA705B7536C6BF844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E0AB65889F41F84C0BC3B35C6F8E3C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK";
+			target = 3C6A28D2E499DF5C7AD1D84CF910B477 /* mob_sharesdk-ShareSDK */;
+			targetProxy = 8536793B433423CC9D9287940AE41958 /* PBXContainerItemProxy */;
+		};
+		E9A5C7DE250EA09B7FB06B125E9C677D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOBFoundation;
+			targetProxy = B034533B7C998F08BAE05570DFAC4BD6 /* PBXContainerItemProxy */;
+		};
+		ECE387F5C9832FE7FBD30FE15644CCF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK_JS_WeChat";
+			target = 6673F704346443BF383C4C9196CAA383 /* mob_sharesdk-ShareSDK_JS_WeChat */;
+			targetProxy = DE7EDEFA0C814C8949D8433CE9A3349B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25D1C81DEAFECCBD87A36A42AE41CFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6B5D5330D68D3BE381F460DD40E9AD /* mob_sharesdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E0FAFDC97E552D7EE35BABCF39784DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8528839E1834FA951E31AD13069DDFB /* mob_sharesdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46CAF2C982D03AC0FA2B823BD20FC266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6B5D5330D68D3BE381F460DD40E9AD /* mob_sharesdk.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6E9B157F1EF4A407A2CF04B3306F0821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9209C5971849BF83EAB965E223E8D04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8528839E1834FA951E31AD13069DDFB /* mob_sharesdk.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_WeChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B4BB8EA273C13DBDB04FD5DE4596FBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CD6E0315363A60D69A4F7942014C90B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6B5D5330D68D3BE381F460DD40E9AD /* mob_sharesdk.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_WeChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D7AC435D022EF2222C0BA036EC790073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8528839E1834FA951E31AD13069DDFB /* mob_sharesdk.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B95076A5223454AC30D681F49A1963 /* Build configuration list for PBXAggregateTarget "mob_sharesdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0FAFDC97E552D7EE35BABCF39784DD /* Debug */,
+				25D1C81DEAFECCBD87A36A42AE41CFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617EEDA6076C463EEB4F69C4E5309FC5 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AC435D022EF2222C0BA036EC790073 /* Debug */,
+				46CAF2C982D03AC0FA2B823BD20FC266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FED1DD00333B05DF6180157451FF30D /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9209C5971849BF83EAB965E223E8D04E /* Debug */,
+				CD6E0315363A60D69A4F7942014C90B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC07695C9B399E4634BC0616F96A6000 /* Build configuration list for PBXProject "mob_sharesdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BB8EA273C13DBDB04FD5DE4596FBC6 /* Debug */,
+				6E9B157F1EF4A407A2CF04B3306F0821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAA14379BB572E70E606EF85CB9D65B2 /* Project object */;
+}

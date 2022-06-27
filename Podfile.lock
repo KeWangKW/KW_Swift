@@ -1,0 +1,135 @@
+PODS:
+  - Alamofire (5.2.0)
+  - AlipaySDK-iOS (15.7.4)
+  - DZNEmptyDataSet (1.8.1)
+  - FDFullscreenPopGesture (1.1)
+  - HandyJSON (5.0.1)
+  - IQKeyboardManagerSwift (6.5.5)
+  - JXBanner (0.3.1):
+    - JXBanner/Banner (= 0.3.1)
+    - JXBanner/PageControl (= 0.3.1)
+  - JXBanner/Banner (0.3.1):
+    - JXBanner/Banner/API (= 0.3.1)
+    - JXBanner/Banner/Banner (= 0.3.1)
+    - JXBanner/Banner/Cell (= 0.3.1)
+    - JXBanner/Banner/Common (= 0.3.1)
+    - JXBanner/Banner/Transform (= 0.3.1)
+  - JXBanner/Banner/API (0.3.1):
+    - JXBanner/Banner/Cell
+    - JXBanner/PageControl
+  - JXBanner/Banner/Banner (0.3.1):
+    - JXBanner/Banner/API
+    - JXBanner/Banner/Common
+    - JXBanner/Banner/Transform
+  - JXBanner/Banner/Cell (0.3.1)
+  - JXBanner/Banner/Common (0.3.1)
+  - JXBanner/Banner/Transform (0.3.1):
+    - JXBanner/Banner/API
+  - JXBanner/PageControl (0.3.1):
+    - JXPageControl
+  - JXPageControl (0.1.3):
+    - JXPageControl/Common (= 0.1.3)
+    - JXPageControl/Jump (= 0.1.3)
+    - JXPageControl/Transform (= 0.1.3)
+  - JXPageControl/Common (0.1.3)
+  - JXPageControl/Jump (0.1.3):
+    - JXPageControl/Common
+  - JXPageControl/Transform (0.1.3):
+    - JXPageControl/Common
+  - JXPagingView/Paging (2.0.6)
+  - JXPhotoBrowser (3.1.1)
+  - JXSegmentedView (1.0.6)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.4.3)
+  - mob_sharesdk (4.3.8):
+    - mob_sharesdk/ShareSDK (= 4.3.8)
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDK (4.3.8):
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull (4.3.8):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKUI (4.3.8):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - MOBFoundation (3.2.16)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.0)
+  - TZImagePickerController (3.3.1)
+
+DEPENDENCIES:
+  - AlipaySDK-iOS
+  - DZNEmptyDataSet
+  - FDFullscreenPopGesture
+  - HandyJSON (~> 5.0.1)
+  - IQKeyboardManagerSwift (~> 6.0)
+  - JXBanner
+  - JXPagingView/Paging
+  - JXPhotoBrowser (~> 3.0)
+  - JXSegmentedView
+  - Kingfisher
+  - MBProgressHUD
+  - MJRefresh
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull
+  - mob_sharesdk/ShareSDKUI
+  - Moya
+  - SnapKit
+  - SwiftyJSON
+  - TZImagePickerController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlipaySDK-iOS
+    - DZNEmptyDataSet
+    - FDFullscreenPopGesture
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - JXBanner
+    - JXPageControl
+    - JXPagingView
+    - JXPhotoBrowser
+    - JXSegmentedView
+    - Kingfisher
+    - MBProgressHUD
+    - MJRefresh
+    - mob_sharesdk
+    - MOBFoundation
+    - Moya
+    - SnapKit
+    - SwiftyJSON
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  JXBanner: b97cd36d6ed96d86c71d279158c3409b605123b0
+  JXPageControl: eea52838699a4949063e600b25eb9e8b6e20ae3f
+  JXPagingView: 5851fb8cc964d0cbd93e9611077f7bc1fca05fee
+  JXPhotoBrowser: 055586beca63049f16a64aefd575020b44b2a83f
+  JXSegmentedView: ceb6fb3a12716408bcd5c4210b93d947d079de25
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  mob_sharesdk: 7689cb066326e50d99c9fb552d5d608ae3b63025
+  MOBFoundation: 204917a048271f7300434a2067ce2d4d149d124b
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
+
+PODFILE CHECKSUM: 66f376725032e3c3faf1a16c0c3e8789eb1615fb
+
+COCOAPODS: 1.10.1

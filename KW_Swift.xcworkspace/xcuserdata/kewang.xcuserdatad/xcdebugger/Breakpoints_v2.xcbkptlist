@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E4BCBAD5-68C3-4FE7-9E54-581EF4914D9B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7CACE2E-D4F5-4A19-99AA-D27F8A006B15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NotificationService/NotificationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "didReceive(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "067427A1-0368-4B02-9D4E-6FA61259B913"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KWNotificationService/NotificationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "didReceive(_:withContentHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F200D38-BEC3-44C2-BE6F-2B6112B141E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x79ef;&#x5206;&#x5546;&#x57ce;/&#x5165;&#x9a7b;&#x6d41;&#x7a0b;/C/BAddIntegralShopVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "nextClick()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F200D38-BEC3-44C2-BE6F-2B6112B141E3 - 59e24835956456d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KW_Swift.BAddIntegralShopVC.nextClick() -&gt; ()"
+                  moduleName = "KW_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kewang/%E9%A1%B9%E7%9B%AE/%E5%95%86%E5%AE%B6%E7%AB%AF/ios-shop/KW_Swift/KW_Swift/Modular/%E6%88%91%E7%9A%84/%E7%A7%AF%E5%88%86%E5%95%86%E5%9F%8E/%E5%85%A5%E9%A9%BB%E6%B5%81%E7%A8%8B/C/BAddIntegralShopVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "9341">
+               </Location>
+               <Location
+                  uuid = "1F200D38-BEC3-44C2-BE6F-2B6112B141E3 - 9ff9b31cedd6d5de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;KW_Swift.ApiResponse, KW_Swift.ApiError&gt;) -&gt; () in KW_Swift.BAddIntegralShopVC.nextClick() -&gt; ()"
+                  moduleName = "KW_Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kewang/%E9%A1%B9%E7%9B%AE/%E5%95%86%E5%AE%B6%E7%AB%AF/ios-shop/KW_Swift/KW_Swift/Modular/%E6%88%91%E7%9A%84/%E7%A7%AF%E5%88%86%E5%95%86%E5%9F%8E/%E5%85%A5%E9%A9%BB%E6%B5%81%E7%A8%8B/C/BAddIntegralShopVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "210"
+                  endingLineNumber = "210"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BE6CAFF-ADBD-4F73-A484-5EF5057582F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5ba2;&#x6237;&#x670d;&#x52a1;/&#x5bb9;&#x8054;&#x4e03;&#x964c;/Tools/QMLabelText.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "+MLEmojiLabelText:fontName:fontSize:maxWidth:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "263AAB63-BBC9-4DC2-BA41-C9D27896B810"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5ba2;&#x6237;&#x670d;&#x52a1;/&#x5bb9;&#x8054;&#x4e03;&#x964c;/QMChatVC/Cell/QMChatVoiceCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "-createUI"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A81B360-1FC5-4912-B161-0056A61FBC83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5ba2;&#x6237;&#x670d;&#x52a1;/&#x5bb9;&#x8054;&#x4e03;&#x964c;/QMChatVC/View/QMChatFlowView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "-createLabel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F48943BD-9B57-4488-906B-F7BE4701A56E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5ba2;&#x6237;&#x670d;&#x52a1;/&#x5bb9;&#x8054;&#x4e03;&#x964c;/QMChatVC/Cell/QMChatRobotCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "-createLabel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F38D958-A2AE-4EC1-815B-1B0D5F317C37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5ba2;&#x6237;&#x670d;&#x52a1;/&#x5bb9;&#x8054;&#x4e03;&#x964c;/QMChatVC/Cell/QMChatCallCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-createUI"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85BBD02A-1DD7-4DFD-AB7D-081D809D2782"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x667a;&#x4ed8;&#x8425;&#x9500;/&#x603b;&#x6536;&#x76ca;/&#x8d39;&#x7387;&#x6d41;&#x91cf;&#x4e1a;&#x52a1;&#x8865;&#x8d34;/WPMAEIncomeListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "WPMAEIncomeListVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E1C8586-FB7E-462C-B34C-345F2E45416C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x5206;&#x7c7b;/Main/C/XDSSearchResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "kw_setupUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE8F71FE-4126-47E5-B87A-46BF70C20EB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6d4b;&#x8bd5;&#x9aa8;&#x67b6;&#x56fe;/KWCellTestCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(style:reuseIdentifier:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A008766E-7ABA-4A56-8CBA-4B9CE272E488"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6d4b;&#x8bd5;&#x9aa8;&#x67b6;&#x56fe;/KWCellTestCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(style:reuseIdentifier:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "797A25F2-A171-4F67-B472-D9D69A631A56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6d4b;&#x8bd5;&#x9aa8;&#x67b6;&#x56fe;/KWTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "KWTabVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA2D6D62-7A4E-40E4-9989-F29AD1B67BDB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6d4b;&#x8bd5;&#x9aa8;&#x67b6;&#x56fe;/KWTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "KWTabVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8086AD93-B663-482A-ADB9-B5E7C5925528"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6d4b;&#x8bd5;&#x9aa8;&#x67b6;&#x56fe;/KWTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "KWTabVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44E5FAE0-C7DE-411A-B27D-EB4124EF6DB5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6d4b;&#x8bd5;&#x9aa8;&#x67b6;&#x56fe;/KWTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "KWTabVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E0B861A-1063-423C-86BA-9449468F1332"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6d4b;&#x8bd5;&#x9aa8;&#x67b6;&#x56fe;/KWTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "KWTabVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0ABC527-6DD5-41A1-8514-22CA2C76B551"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x8d2d;&#x7269;&#x8f66;/Main/V/&#x8d2d;&#x7269;&#x8f66;&#x7a7a;&#x5904;&#x7406;/XDSShopCartEmptyVC.swift"
+            startingColumnNumber = "32"
+            endingColumnNumber = "32"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "reloadCell(mo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DADC97C3-EB6E-48C5-88C2-3EE825BBC4E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x667a;&#x4ed8;&#x8425;&#x9500;/&#x533a;&#x57df;&#x5185;&#x5546;&#x5bb6;/WPMAreaShopsCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "item"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF8CD86C-C950-40A7-A005-A5D4ABC4DB7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x5206;&#x7c7b;/Main/C/XDSCatrgroySearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3F196F1-B5FD-4124-B11A-3B703972FD9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x8425;&#x9500;&#x5de5;&#x5177;/&#x5f15;&#x6d41;&#x98de;&#x8f6e;/&#x521b;&#x5efa;&#x6d3b;&#x52a8;/&#x9009;&#x62e9;&#x5546;&#x54c1;/XDSActivityPlatformProductViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB763309-2D68-4D21-BBB5-EC2F0F58F43C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x8425;&#x9500;&#x5de5;&#x5177;/&#x5f15;&#x6d41;&#x98de;&#x8f6e;/&#x521b;&#x5efa;&#x6d3b;&#x52a8;/&#x9009;&#x62e9;&#x5546;&#x54c1;/XDSActivityCustomProductViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25985046-FE8E-4E45-BBC0-393B7A9206EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x8d2d;&#x7269;&#x8f66;/Main/C/BShoppingCartVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "549"
+            endingLineNumber = "549"
+            landmarkName = "setUpSwiftEventBus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF2111C9-A1FA-4DA2-B685-2539EBB4392A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x7528;&#x6237;&#x7ba1;&#x7406;/&#x521b;&#x5efa;&#x7528;&#x6237;/XDSCreatUserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "838"
+            endingLineNumber = "838"
+            landmarkName = "dailiCreateUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0930F2D-311E-4095-9B69-D9B90110F8BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x7528;&#x6237;&#x7ba1;&#x7406;/&#x666e;&#x901a;&#x7248;&#x3001;&#x5c0a;&#x4eab;&#x7248;/View/XDSUserManagerAplayTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "requestPayPrice()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9CC5C6F-E96B-4AD2-AA4B-52C630406487"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x5206;&#x7c7b;/Main/C/XDSCatrgroySearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "requestHistory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8139AA99-084F-43C4-8395-B37A59C21D4D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5ba2;&#x6237;&#x670d;&#x52a1;/&#x5bb9;&#x8054;&#x4e03;&#x964c;/QMChatVC/ViewController/QMChatRoomViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1292"
+            endingLineNumber = "1292"
+            landmarkName = "-createNSTimer"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A979C6A9-4656-4DB5-8C4D-B736BF61F314"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5ba2;&#x6237;&#x670d;&#x52a1;/&#x5bb9;&#x8054;&#x4e03;&#x964c;/QMChatVC/ViewController/QMChatRoomViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1398"
+            endingLineNumber = "1398"
+            landmarkName = "-outAction"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6659D1F0-FA07-4450-A05A-AFFC4527A33F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5ba2;&#x6237;&#x670d;&#x52a1;/&#x5bb9;&#x8054;&#x4e03;&#x964c;/QMChatVC/ViewController/QMChatRoomViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1326"
+            endingLineNumber = "1326"
+            landmarkName = "-breakTipTimerAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79F329B3-1627-4C45-AF00-386A0F008980"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x6211;&#x7684;&#x7ba1;&#x7406;/&#x6211;&#x7684;&#x5ba1;&#x6838;/&#x8be6;&#x60c5;/Controller/XDSAuditDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FC88690-38BE-4ADC-B04F-232E8AFDA2E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x603b;&#x8d26;&#x53f7;/Main/XDSBossViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "kw_requestData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8A9577D-3CD9-4B8C-9CF2-EBE159E07FC6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x603b;&#x8d26;&#x53f7;/Main/XDSBossViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "kw_requestData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91595192-C96D-4A62-99F5-EBE7FA779794"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x603b;&#x8d26;&#x53f7;/Main/XDSBossViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "kw_requestData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "527EF146-F09A-446C-882B-D80F3F99FA64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x7269;&#x6599;&#x5546;&#x57ce;/&#x8ba2;&#x5355;&#x5217;&#x8868;/MMPDOrderListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "item"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87D859BF-7799-4FCE-B446-CE47415319C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x7269;&#x6599;&#x5546;&#x57ce;/&#x8ba2;&#x5355;&#x5217;&#x8868;/MMPDOrderListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "kw_setupViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68FDEC00-8D30-4B15-9709-62FBB8E42173"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/Main/V/BHPPDListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "item"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4C390B8-421D-4565-ACA8-4EC08B231E3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/&#x6846;&#x67b6;/Common/AppContext/AppContext.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "logout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4C0D839-0BA1-4655-B198-2BF5F78BB308"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/Main/V/BHPDiscountCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "setModel2(mo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70E572F8-76DE-49F9-B013-0981262E5850"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x4f01;&#x4e1a;&#x7528;&#x6237;&#x7ba1;&#x7406;/&#x8d2d;&#x4e70;&#x6570;&#x91cf;/BuyShopNumVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "selectedTGClcik(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63CF913B-BF33-4BD8-A963-BB4D74CC7E3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x603b;&#x8d26;&#x53f7;/Main/XDSBossViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "kw_requestData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97A168B0-9DE9-473D-B657-3C9514D690BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x603b;&#x8d26;&#x53f7;/Main/XDSBossViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "390"
+            endingLineNumber = "390"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1867F7CC-5B6F-4EB1-ADE0-0089D51346EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x8d2d;&#x7269;&#x8f66;/&#x91cd;&#x9009;&#x89c4;&#x683c;/BSCSelectPDModelVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18F66912-3F9F-419D-A366-F857C49D8BCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x79ef;&#x5206;&#x5546;&#x57ce;/&#x6dfb;&#x52a0;&#x5546;&#x54c1;/BISAddProductVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "485"
+            endingLineNumber = "485"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FC5ACF2-F535-4A06-A501-89A1AC25170D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x5206;&#x7c7b;/Main/C/BClassifyVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "requestHead()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "528BF5CE-55B1-43FE-901E-23F5E11080DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x91c7;&#x8d2d;&#x8ba2;&#x5355;/&#x8ba2;&#x5355;&#x8be6;&#x60c5;/OrderDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "kw_requestData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AB1B555-CBCA-4719-81E9-8615F51707C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x6211;&#x7684;/&#x91c7;&#x8d2d;&#x8ba2;&#x5355;/&#x8ba2;&#x5355;&#x8be6;&#x60c5;/&#x7269;&#x6d41;&#x5730;&#x56fe;/BOSMSendTopView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "kw_setupLayouts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB0BA2D9-D216-4809-80B5-6D21E5CA2913"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/CommonAndWeb/&#x65e0;&#x7f51;&#x7edc;View/SimplePing/FFSimplePingHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-simplePing:didFailToSendPacket:sequenceNumber:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD115500-D850-46EB-936B-7D4B4052DF0A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/CommonAndWeb/&#x65e0;&#x7f51;&#x7edc;View/SimplePing/FFSimplePingHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-simplePing:didFailWithError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A60978F-80B4-4B0A-956A-4CF64F032785"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/CommonAndWeb/web&#x9875;&#x9762;&#x6574;&#x5408;/BSWebVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "387"
+            endingLineNumber = "387"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D3B0985-1F86-4235-8C2D-22BE15B1DC98"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5546;&#x54c1;&#x8be6;&#x60c5;/V/CLPlayer/CLPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "551"
+            endingLineNumber = "551"
+            landmarkName = "KWdidClickCloseButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EB32500-572F-487E-857D-AA7778BBFD3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x9996;&#x9875;/&#x5546;&#x54c1;&#x8be6;&#x60c5;/V/CLPlayer/CLPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "536"
+            endingLineNumber = "536"
+            landmarkName = "KWdidClickFullButton(isFull:in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E868700B-2C48-463E-85AE-9EA1EE46593A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x5546;&#x5b66;&#x9662;/&#x63a8;&#x8350;/&#x8425;&#x9500;&#x5de5;&#x5177;/CLPlayer3/CLPlayerContentView3.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "455"
+            endingLineNumber = "455"
+            landmarkName = "isShowToolView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04D22ACB-F0C3-4053-9AAB-2E22F5475CBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW_Swift/Modular/&#x5546;&#x5b66;&#x9662;/&#x63a8;&#x8350;/&#x76f4;&#x64ad;&#x5728;&#x7ebf;&#x56de;&#x653e;&#x5217;&#x8868;/player2/CLPlayerContentView2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
+            landmarkName = "playState"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
