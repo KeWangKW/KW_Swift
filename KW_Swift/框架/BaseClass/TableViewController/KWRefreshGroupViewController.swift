@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 private let defalutPage = "1"
 
 class KWRefreshGroupViewController: KWTableViewGroupController {
