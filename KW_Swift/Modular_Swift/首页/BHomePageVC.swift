@@ -15,7 +15,6 @@ class BHomePageVC: KWCollectionRefreshViewController  {
         self.nav_color_clear()
         self.fd_prefersNavigationBarHidden = true
         
-        KScreenWidth
     }
     
     override func kw_setupData() {
@@ -30,7 +29,7 @@ class BHomePageVC: KWCollectionRefreshViewController  {
     
     override func kw_setupUI() {
         super.kw_setupUI()
-        collectionView.kw.registerXib2(cell: BHPPDListCell.self)
+        collectionView.kw.registerXib(cell: BHPPDListCell.self)
     }
     
     override func kw_requestData() {

@@ -9,8 +9,9 @@
 import UIKit
 
 class KWTableViewController: KWViewController {
-
-    var style: UITableView.Style = .plain
+    
+    //默认sectionHeader不悬停 可在【kw_setupData】中修改
+    public var style: UITableView.Style = .plain
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -10,6 +10,8 @@ import UIKit
 
 class KWCollectionViewController: KWViewController {
 
+    var sectionHeadersPinToVisibleBounds:Bool = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,7 +42,7 @@ class KWCollectionViewController: KWViewController {
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = .zero
-        layout.sectionHeadersPinToVisibleBounds = true
+        layout.sectionHeadersPinToVisibleBounds = sectionHeadersPinToVisibleBounds
         
         let collect = UICollectionView(frame: CGRect(), collectionViewLayout: layout)
         collect.delegate = self

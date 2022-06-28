@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 public extension KWSwiftWrapper where Base: UIImageView {
     
@@ -15,4 +16,14 @@ public extension KWSwiftWrapper where Base: UIImageView {
         base.clipsToBounds = true
     }
     
+}
+
+extension UIImageView {
+    func setImage(with string: String?, placeholder image: UIImage? = UIImage(color: .gray)) {
+        guard var string = string else { return }
+        if !string.hasPrefix(Api.base) {
+            string = Api.base + string
+        }
+        self.kf.setImage(with: URL(string: string), placeholder: image)
+    }
 }
