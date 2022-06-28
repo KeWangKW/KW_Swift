@@ -135,12 +135,6 @@
 		0E94D9D42659070F0080ECAF /* JHAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E94D9D02659070F0080ECAF /* JHAudioTool.m */; };
 		0E94D9D52659070F0080ECAF /* JHAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E94D9D02659070F0080ECAF /* JHAudioTool.m */; };
 		0E9ACECA26019AB7004055BC /* KWPageTableViewListGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9ACEC926019AB7004055BC /* KWPageTableViewListGroupController.swift */; };
-		0EABF6A226A9923E00485A74 /* IdcardQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EABF69F26A9923D00485A74 /* IdcardQuality.framework */; };
-		0EABF6A326A9923E00485A74 /* AipBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EABF6A026A9923D00485A74 /* AipBase.framework */; };
-		0EABF6A426A9923E00485A74 /* AipOcrSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EABF6A126A9923E00485A74 /* AipOcrSdk.framework */; };
-		0EABF6A626A993ED00485A74 /* AipBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0EABF6A026A9923D00485A74 /* AipBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0EABF6A726A993ED00485A74 /* AipOcrSdk.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0EABF6A126A9923E00485A74 /* AipOcrSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0EABF6A826A993ED00485A74 /* IdcardQuality.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0EABF69F26A9923D00485A74 /* IdcardQuality.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0EB134F126E886270030DFF9 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED5473E25ADA6F1000DDB95 /* UserNotifications.framework */; };
 		0EB134F226E886270030DFF9 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E347CE926579B4300901024 /* UserNotificationsUI.framework */; };
 		0EB134F526E886270030DFF9 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB134F426E886270030DFF9 /* NotificationViewController.swift */; };
@@ -272,9 +266,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0EABF6A626A993ED00485A74 /* AipBase.framework in CopyFiles */,
-				0EABF6A726A993ED00485A74 /* AipOcrSdk.framework in CopyFiles */,
-				0EABF6A826A993ED00485A74 /* IdcardQuality.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,9 +412,6 @@
 		0E94D9D02659070F0080ECAF /* JHAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAudioTool.m; sourceTree = "<group>"; };
 		0E94D9D12659070F0080ECAF /* JHAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAudioTool.h; sourceTree = "<group>"; };
 		0E9ACEC926019AB7004055BC /* KWPageTableViewListGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWPageTableViewListGroupController.swift; sourceTree = "<group>"; };
-		0EABF69F26A9923D00485A74 /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IdcardQuality.framework; sourceTree = "<group>"; };
-		0EABF6A026A9923D00485A74 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipBase.framework; sourceTree = "<group>"; };
-		0EABF6A126A9923E00485A74 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipOcrSdk.framework; sourceTree = "<group>"; };
 		0EB134F026E886270030DFF9 /* NotificationViewController.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationViewController.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB134F426E886270030DFF9 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		0EB134F726E886270030DFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -533,8 +521,6 @@
 				0ED5474925ADA751000DDB95 /* SystemConfiguration.framework in Frameworks */,
 				0ED5474725ADA747000DDB95 /* libz.tbd in Frameworks */,
 				0ED5474525ADA735000DDB95 /* libxml2.tbd in Frameworks */,
-				0EABF6A426A9923E00485A74 /* AipOcrSdk.framework in Frameworks */,
-				0EABF6A226A9923E00485A74 /* IdcardQuality.framework in Frameworks */,
 				0ED5474325ADA727000DDB95 /* libresolv.9.tbd in Frameworks */,
 				0ED5474125ADA71F000DDB95 /* libresolv.tbd in Frameworks */,
 				0ED5473F25ADA6F1000DDB95 /* UserNotifications.framework in Frameworks */,
@@ -548,7 +534,6 @@
 				0E4D3B932567700400BDCB92 /* QuartzCore.framework in Frameworks */,
 				0E4D3B8E25676FE800BDCB92 /* libiconv.tbd in Frameworks */,
 				0E4D3B8925676FDA00BDCB92 /* libbz2.tbd in Frameworks */,
-				0EABF6A326A9923E00485A74 /* AipBase.framework in Frameworks */,
 				0E4D3B8725676FCD00BDCB92 /* OpenGLES.framework in Frameworks */,
 				0EBFD18B2567541D00A014AA /* Foundation.framework in Frameworks */,
 				0E3517042591D6F100D95F21 /* CloudKit.framework in Frameworks */,
@@ -1353,9 +1338,6 @@
 		A20C862B17E6D98E94872522 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EABF6A026A9923D00485A74 /* AipBase.framework */,
-				0EABF6A126A9923E00485A74 /* AipOcrSdk.framework */,
-				0EABF69F26A9923D00485A74 /* IdcardQuality.framework */,
 				0E347D9C2657E99D00901024 /* AVFoundation.framework */,
 				0ED5474C25ADA76D000DDB95 /* CoreTelephony.framework */,
 				0ED5474A25ADA764000DDB95 /* CFNetwork.framework */,
