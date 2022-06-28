@@ -26,6 +26,8 @@ extension UIViewController {
         kw_barStyle = .default
         kw_barAlpha = 0
         kw_shadowHidden = true
+        
+        nav_clear_defult = true
     }
     
     //透明渐变成深色（适用于展示VC中的背景图）
@@ -44,10 +46,24 @@ extension UIViewController {
         kw_shadowHidden = true
         
         nav_color_gradient_scroll = true
+        nav_clear_defult = true
     }
     @objc var nav_color_gradient_scroll:Bool {
-        get {return false} set{}
+        get {
+            return objc_getAssociatedObject(self, &KWNavigationBarKeys.gradient_scroll) as? Bool ?? false
+        } set{
+            objc_setAssociatedObject(self, &KWNavigationBarKeys.gradient_scroll, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
     }
+    
+    var nav_clear_defult:Bool {
+        get {
+            return objc_getAssociatedObject(self, &KWNavigationBarKeys.clear_defult) as? Bool ?? false
+        } set{
+            objc_setAssociatedObject(self, &KWNavigationBarKeys.clear_defult, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
+    
     /*
      子类实现
      override func scrollViewDidScroll(_ scrollView: UIScrollView) {}
@@ -90,6 +106,9 @@ extension UIViewController {
         static var shadowHidden = "KWNavigationBarKeys_shadowHidden"
         static var shadowColor = "KWNavigationBarKeys_shadowColor"
         static var enablePopGesture = "KWNavigationBarKeys_enablePopGesture"
+        
+        static var clear_defult = "KWNavigationBarKeys_nav_clear_defult"
+        static var gradient_scroll = "KWNavigationBarKeys_nav_color_gradient_scroll"
     }
 
     //MARK: 导航栏样式，默认样式

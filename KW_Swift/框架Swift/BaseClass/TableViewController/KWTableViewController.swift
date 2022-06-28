@@ -35,7 +35,11 @@ class KWTableViewController: KWViewController {
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
             if #available(iOS 11.0, *) {
-                make.edges.equalTo(self.view.safeAreaLayoutGuide)
+                if nav_clear_defult {
+                    make.edges.equalToSuperview()
+                }else{
+                    make.edges.equalTo(self.view.safeAreaLayoutGuide)
+                }
             } else {
                 make.edges.equalToSuperview()
             }

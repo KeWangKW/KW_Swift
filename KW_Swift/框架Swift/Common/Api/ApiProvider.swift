@@ -44,55 +44,16 @@ extension ApiProvider {
             switch result {
             case let .success(response):
                 let resp = ApiResponse(response)
-                
-//                if !resp.tokenExpired {
-//                    HUD.showError(text: resp.message)
-//                }
-                
-//                guard !resp.tokenExpired else {
-//                    completion(.failure(ApiError.tokenExpired))
-//
-//                    AlertOnly("登录失效", "请重新登录", "确定") {
-//
-//                    }
-//                    return
-//                }
-                
                 completion(.success(resp))
             case let .failure(error):
                 let error = ApiError.transform(error)
-                
                 HUD.showError(text: error.localizedDescription)
-                
-                DispatchQueue.main.async {
-                    let v = KWErrorAlert()
-                    v.setMsg(str: error.localizedDescription)
-                    UIApplication.shared.keyWindow?.addSubview(v)
-                }
                 completion(.failure(error))
-                
             }
         }
     }
     
     
-//    /// 检测是否开启联网
-//    func hw_openEventServiceWithBolck(action :@escaping ((Bool)->())) {
-//        let cellularData = CTCellularData()
-//        cellularData.cellularDataRestrictionDidUpdateNotifier = { (state) in
-//            if state == CTCellularDataRestrictedState.restrictedStateUnknown ||  state == CTCellularDataRestrictedState.notRestricted {
-//                action(false)
-//            } else {
-//                action(true)
-//            }
-//        }
-//        let state = cellularData.restrictedState
-//        if state == CTCellularDataRestrictedState.restrictedStateUnknown ||  state == CTCellularDataRestrictedState.notRestricted {
-//            action(false)
-//        } else {
-//            action(true)
-//        }
-//    }
 }
 
 

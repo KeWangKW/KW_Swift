@@ -71,6 +71,14 @@ public class KWViewController: UIViewController { //,LifetimeTrackable
     public func kw_setupUI() -> Void {
 //        navigationItem.backBarButtonItem = backBarButton
         view.backgroundColor = .custom(.section)
+        
+        if nav_clear_defult {
+            /*
+             导航栏默认透明时处理
+             */
+            self.edgesForExtendedLayout = .top
+        }
+        
     }
     
     public func kw_requestData() -> Void {}

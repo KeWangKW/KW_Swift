@@ -36,7 +36,7 @@ fileprivate let HUDContentColor: UIColor = .white
 public let HUDTextAfterDelayTime: TimeInterval = 1.5
 
 public struct HUD {
-    /*
+    
     @discardableResult
     public static func show(_ view: UIView?, text: String?, opaque: Bool = false, offset: CGPoint = .zero, image: UIImage? = nil, mode: MBProgressHUDMode = .customView) -> MBProgressHUD {
         
@@ -107,9 +107,9 @@ public struct HUD {
         else { return }
         hide(view)
     }
-    */
-    // 原加载样式
     
+    // 原加载样式
+    /*
     @discardableResult
     public static func show(_ view: UIView?, text: String?, opaque: Bool = false, offset: CGPoint = .zero, image: UIImage? = nil, mode: MBProgressHUDMode = .indeterminate) -> MBProgressHUD {
         
@@ -150,7 +150,6 @@ public struct HUD {
         return hud
     }
     
-    
     public static func hide(_ view: UIView? = nil) {
         var superView: UIView!
         if view == nil {
@@ -173,7 +172,7 @@ public struct HUD {
         else { return }
         hide(view)
     }
-     
+     */
 }
 
 

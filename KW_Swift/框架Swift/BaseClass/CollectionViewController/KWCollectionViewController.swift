@@ -29,7 +29,12 @@ class KWCollectionViewController: KWViewController {
         view.addSubview(collectionView)
         collectionView.snp.makeConstraints { (make) in
             if #available(iOS 11.0, *) {
-                make.edges.equalTo(self.view.safeAreaLayoutGuide)
+                //make.edges.equalTo(self.view.safeAreaLayoutGuide)
+                if nav_clear_defult {
+                    make.edges.equalToSuperview()
+                }else{
+                    make.edges.equalTo(self.view.safeAreaLayoutGuide)
+                }
             } else {
                 make.edges.equalToSuperview()
             }

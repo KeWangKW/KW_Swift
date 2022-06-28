@@ -10,24 +10,41 @@ import UIKit
 
 class BClassifyVC: KWTableViewController {
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-    }
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-    }
     
     //MARK: kw_setupData
     override func kw_setupData() {
         super.kw_setupData()
         style = .plain
+        
+        nav_color_gradient(.yellow)
+        
     }
     //MARK: kw_setupUI
     override func kw_setupUI() {
         super.kw_setupUI()
+        
+        
         tableView.kw.registerXib(cellXib: WTableVieC.self)
 //        tableView.kw.register(cell: WTableVieC.self)
     }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        if nav_color_gradient_scroll {
+            let contentOffsetY = scrollView.contentOffset.y
+            let progress = min(1, max(0, contentOffsetY / 60))
+            if progress < 0.1 {
+                //kw_barStyle = .default
+                kw_tintColor = .white
+                kw_titleColor = UIColor(white: 1, alpha: 0)
+            } else {
+                //kw_barStyle = .black
+                kw_tintColor = UIColor(white: 0, alpha: progress)
+                kw_titleColor = UIColor(white: 1, alpha: progress)
+            }
+            kw_barAlpha = progress
+//        }
+    }
+    
     //MARK: kw_requestData
     override func kw_requestData() {
         super.kw_requestData()

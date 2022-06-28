@@ -181,8 +181,6 @@
 		0EBF3B0826082A4100D267FE /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF3AF726082A4100D267FE /* ScannerVC.swift */; };
 		0EBF3B0926082A4100D267FE /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF3AF926082A4100D267FE /* ScanView.swift */; };
 		0EBFD18B2567541D00A014AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBFD18A2567541D00A014AA /* Foundation.framework */; };
-		0EC0511D279BD61100635948 /* KWErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0511C279BD61100635948 /* KWErrorAlert.swift */; };
-		0EC0511F279BD67A00635948 /* KWErrorAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EC0511E279BD67A00635948 /* KWErrorAlert.xib */; };
 		0EC0EB96257F23500017B695 /* BHomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0EB95257F23500017B695 /* BHomePageVC.swift */; };
 		0ED29F28273B911200F00DF3 /* ShopCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED29F27273B911200F00DF3 /* ShopCenterVC.swift */; };
 		0ED5473F25ADA6F1000DDB95 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED5473E25ADA6F1000DDB95 /* UserNotifications.framework */; };
@@ -480,8 +478,6 @@
 		0EBF3AF926082A4100D267FE /* ScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		0EBF3AFA26082A4100D267FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EBFD18A2567541D00A014AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0EC0511C279BD61100635948 /* KWErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWErrorAlert.swift; sourceTree = "<group>"; };
-		0EC0511E279BD67A00635948 /* KWErrorAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KWErrorAlert.xib; sourceTree = "<group>"; };
 		0EC0EB95257F23500017B695 /* BHomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BHomePageVC.swift; sourceTree = "<group>"; };
 		0ED29F27273B911200F00DF3 /* ShopCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCenterVC.swift; sourceTree = "<group>"; };
 		0ED5473E25ADA6F1000DDB95 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
@@ -726,7 +722,6 @@
 			isa = PBXGroup;
 			children = (
 				0E22240E251604B800620158 /* InputCell */,
-				0E222414251604B800620158 /* OpenUrlManager */,
 				0E222420251604B800620158 /* Const */,
 				0E222425251604B800620158 /* AppContext */,
 				0E222427251604B800620158 /* Api */,
@@ -799,8 +794,6 @@
 				0E54EDC32587503000B3F642 /* ApiProvider.swift */,
 				0E54EDC42587503000B3F642 /* ApiResult.swift */,
 				0E54EDC72587503000B3F642 /* ApiConfig.swift */,
-				0EC0511C279BD61100635948 /* KWErrorAlert.swift */,
-				0EC0511E279BD67A00635948 /* KWErrorAlert.xib */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -1210,6 +1203,7 @@
 		0EB9A6F5286AF3B100A69ECE /* ManagerAndForSDK */ = {
 			isa = PBXGroup;
 			children = (
+				0E222414251604B800620158 /* OpenUrlManager */,
 				0E222430251604B800620158 /* ImagePicker */,
 				0E222432251604B800620158 /* Refresh */,
 				0E222434251604B800620158 /* Alert */,
@@ -1566,7 +1560,6 @@
 				0E5748242750C2E700249753 /* 加载缓存.gif in Resources */,
 				0E1916422513379F00E5A6AE /* Assets.xcassets in Resources */,
 				0E19163D2513379D00E5A6AE /* Main.storyboard in Resources */,
-				0EC0511F279BD67A00635948 /* KWErrorAlert.xib in Resources */,
 				0E222486251604B800620158 /* HUDBundle.bundle in Resources */,
 				0EB473A128694C330036FC0F /* BHPPDListCell.xib in Resources */,
 				0E1F9F1D264E4EBE00062540 /* city.json in Resources */,
@@ -1794,7 +1787,6 @@
 				0E222495251604B800620158 /* OptionalExt.swift in Sources */,
 				0EB9A5E22869BF3800A69ECE /* NSString+XHQRegular.m in Sources */,
 				0E12953726CA8BFE00094C8E /* CHIPageControlPuya.swift in Sources */,
-				0EC0511D279BD61100635948 /* KWErrorAlert.swift in Sources */,
 				0EFC48CD2636E9B90039B5B4 /* WMCountDown.swift in Sources */,
 				0E6ED33B2859B9310031AA38 /* SetUpTZImagePicker.m in Sources */,
 				0EB9A5D12869B7A400A69ECE /* KWOCRefreshViewController.m in Sources */,
