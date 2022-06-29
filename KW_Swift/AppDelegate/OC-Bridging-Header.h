@@ -20,7 +20,6 @@
 #import <UserNotifications/UserNotifications.h>
 
 #import <objc/runtime.h>
-#import <AipOcrSdk/AipOcrSdk.h>
 
 
 

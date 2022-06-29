@@ -98,7 +98,7 @@ enum KWTabBarItem {
 //        if title == "商学院" {
 //            item.imageInsets = UIEdgeInsets(top: -10, left: 0, bottom: 10, right: 0)
 //        }
-//        //新年修改位置
+//        //修改位置
         item.imageInsets = UIEdgeInsets(top: 2, left: 0, bottom: -2, right: 0)
         if #available(iOS 15.0, *) {
             
@@ -170,7 +170,7 @@ class KWTabBarController: UITabBarController {
             appearance.stackedLayoutAppearance.selected.titleTextAttributes = selectedAttributes
             appearance.stackedLayoutAppearance.normal.titleTextAttributes = normalAttributes
             
-            //新年修改文字位置
+            //修改文字位置
             appearance.stackedLayoutAppearance.normal.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 2)
             
             tabbar.standardAppearance = appearance

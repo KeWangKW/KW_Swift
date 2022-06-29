@@ -20,7 +20,7 @@ class ShopCartVC: KWPageTableViewListGroupController {
     override func kw_setupData() {
         super.kw_setupData()
         self.isAddRefreshFooter = true
-        kw.emptyDataSetImage = UIImage(named: "a278127")
+        kw.emptyDataSetImage = UIImage(named: "ic_zeroshuj")
         kw.emptyDataSetTitle = "空空如也"
     }
     //MARK: kw_setupUI

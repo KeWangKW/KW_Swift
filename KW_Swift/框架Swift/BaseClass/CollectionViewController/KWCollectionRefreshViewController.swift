@@ -42,6 +42,7 @@ class KWCollectionRefreshViewController: KWCollectionViewController, KWRefreshPr
     }
     
     var isDropDownRefresh: Bool {
+        dataArr.removeAll()
         return page == defalutPage
     }
     
@@ -91,7 +92,7 @@ class KWCollectionRefreshViewController: KWCollectionViewController, KWRefreshPr
     
     func kw_refreshClearData<T>(data: inout [T])  {
         guard isDropDownRefresh else { return }
-        data.removeAll()
+        data.removeAll() //下拉刷新
     }
     
     func kw_viewReloadData() {

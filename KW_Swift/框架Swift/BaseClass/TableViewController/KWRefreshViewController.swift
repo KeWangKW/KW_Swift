@@ -40,6 +40,7 @@ class KWRefreshViewController: KWTableViewController {
     
     /// 是否执行了下拉刷新操作
     public var isDropDownRefresh: Bool {
+        dataArr.removeAll()
         return page == defalutPage
     }
     

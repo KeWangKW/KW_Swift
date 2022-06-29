@@ -77,6 +77,27 @@
     return [objc_getAssociatedObject(self, @selector(defineValue)) floatValue];
 }
 
+//- (CGFloat)shadowRadius
+//{
+//    return self.layer.shadowRadius;
+//}
+//
+//- (CGFloat)shadowOpacity
+//{
+//    return self.layer.shadowOpacity;
+//}
+//
+//- (CGSize)shadowOffset
+//{
+//    return self.layer.shadowOffset;
+//}
+//
+//- (UIColor *)shadowColor
+//{
+//
+//    return [UIColor colorWithCGColor:self.layer.shadowColor];
+//}
+
 
 //- (UIColor *)bgColor
 //{
